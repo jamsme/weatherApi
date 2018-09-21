@@ -1,0 +1,15 @@
+#container {
+    text-align: center;
+}
+h2 {
+    display: inline-block;
+}
+a {
+    margin: 5px;
+}
+#router {
+    margin: 30px auto;
+    height: 400px;
+    width: 80%;
+    border: 2px solid black;
+}
