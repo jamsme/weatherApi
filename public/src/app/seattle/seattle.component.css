@@ -1,0 +1,16 @@
+h1 {
+    margin: 4px;
+}
+#box {
+    margin: 50px 0 0 0;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+img {
+    object-fit: contain;
+    width: 50%;
+    height: 80%;
+    position: relative;
+    left: 15%;
+}

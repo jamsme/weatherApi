@@ -16,4 +16,20 @@ export class HttpService {
     return this._http.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=6f2782e4e065a6d3e06dbbbc35e40240`);
   }
 
+  getDallasApi(city){
+    return this._http.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=6f2782e4e065a6d3e06dbbbc35e40240`)
+  }
+
+  getSanJoseApi(city){
+    return this._http.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=6f2782e4e065a6d3e06dbbbc35e40240`)
+  }
+
+  getSeattleApi(city){
+    return this._http.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=6f2782e4e065a6d3e06dbbbc35e40240`)
+  }
+
+  getWashingtonApi(city){
+    return this._http.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=6f2782e4e065a6d3e06dbbbc35e40240`)
+  }
+
 }

@@ -10,6 +10,7 @@ export class ChicagoComponent implements OnInit {
   constructor(private _httpService: HttpService) {}
 
   weather = {name: "", humidity: '', tempavg: '', temphigh: '', templow: '', status: ''};
+  
   ngOnInit() {
     this.getChicago();
   }
