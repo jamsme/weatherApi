@@ -1,1 +1,1 @@
-Showing 6 different cities and thier weather forecast that Coding Dojo is in. Using the openWeatherMap Api.
+Showing 6 different cities and their weather forecast that the Coding Dojo are located in. Using the openWeatherMap Api.
